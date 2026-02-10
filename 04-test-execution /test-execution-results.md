@@ -19,3 +19,20 @@ This behavior is expected, as the system should block the time slot only after s
 
 **Reason:**
 Final booking confirmation was intentionally skipped to avoid impacting a real business in the production environment.
+
+## TC-02: Validate client contact data during booking
+
+**Environment:**
+- Platform: EasyWeek (Production)
+- Business page: https://widget.easyweek.com.ua/vseukrainska-avtoshkola/137951
+- Browser: Safari
+
+**Actual Result:**
+Booking was successfully created with an invalid phone number after correcting only the email field.
+
+**Expected Result:**
+Booking should be blocked until a valid phone number is provided.
+
+**Status:** Failed
+
+**Related Bug:** BR-01-invalid-phone-allows-booking
