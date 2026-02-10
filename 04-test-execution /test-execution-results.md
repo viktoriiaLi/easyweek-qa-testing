@@ -36,3 +36,12 @@ Booking should be blocked until a valid phone number is provided.
 **Status:** Failed
 
 **Related Bug:** BR-01-invalid-phone-allows-booking
+
+## TC-03: Service business logic validation
+
+Execution Status: Not Executed
+
+Reason:
+Service compatibility and time constraints depend on business-specific configuration.
+Execution on production environment may impact real customers.
+Test requires dedicated test environment or sandbox account.
