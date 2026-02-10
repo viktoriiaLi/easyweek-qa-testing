@@ -39,3 +39,8 @@ Open
 
 ## Related Test Case
 TC-02: Validate client contact data during booking
+
+## Attachments
+
+![Invalid phone input](attachments/BR-01/invalid-phone-input.png)
+![Booking confirmed](attachments/BR-01/booking-confirmed.png)
