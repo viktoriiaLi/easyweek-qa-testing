@@ -17,3 +17,20 @@
 **Expected Result:**
 - The booked time slot is no longer displayed as available
 - Client B cannot select or book the same time slot
+
+## TC-02: Validate client contact data during booking
+
+**Preconditions:**
+- Service exists
+- Time slot is available
+
+**Steps:**
+1. Client selects a service
+2. Client selects an available date and time
+3. Client proceeds to the booking form
+4. Client enters invalid or incomplete contact data (e.g. empty phone field, invalid phone format)
+5. Client attempts to proceed with booking
+
+**Expected Result:**
+- The system displays a validation error
+- Booking cannot be completed with invalid contact data
